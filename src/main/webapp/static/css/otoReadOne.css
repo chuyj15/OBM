@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+	text-align: center;
+}
+
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.ototable {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.buttonnn {
+	margin-top: 50px;
+}
+
+.abutton a{
+	color: white;
+	text-decoration: none;
+}
+
+

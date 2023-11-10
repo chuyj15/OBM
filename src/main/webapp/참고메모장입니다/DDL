@@ -1,0 +1,89 @@
+DB DDL
+
+CREATE TABLE `auto_login` (
+  `al_id` int NOT NULL AUTO_INCREMENT,
+  `al_session` int DEFAULT NULL,
+  `user_id` varchar(45) DEFAULT NULL,
+  `user_pw` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`al_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE `course` (
+  `course_id` int NOT NULL AUTO_INCREMENT,
+  `course_name` varchar(20) NOT NULL,
+  `description` text NOT NULL,
+  `price` int NOT NULL,
+  `popularity` int NOT NULL,
+  `duration` int NOT NULL,
+  `file` text NOT NULL,
+  PRIMARY KEY (`course_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE `order` (
+  `order_id` int NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `course_name` varchar(100) NOT NULL,
+  `res_date` varchar(30) NOT NULL,
+  `res_time` int NOT NULL,
+  `duration` int NOT NULL,
+  `reg_date` date NOT NULL,
+  `isCancel` int NOT NULL DEFAULT '0',
+  `hc` int NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `isDone` int NOT NULL DEFAULT '0',
+  `price` int NOT NULL,
+  `res_name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  PRIMARY KEY (`order_id`),
+  KEY `order_FK_1` (`course_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE `oto` (
+  `oto_id` int NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(20) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `title` text NOT NULL,
+  `content` text NOT NULL,
+  `category` varchar(30) NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `reply` text,
+  PRIMARY KEY (`oto_id`),
+  KEY `oto_FK` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE `review` (
+  `review_id` int NOT NULL AUTO_INCREMENT,
+  `user_id` varchar(20) NOT NULL,
+  `course_name` varchar(20) NOT NULL,
+  `title` text NOT NULL,
+  `content` text NOT NULL,
+  `reg_date` date NOT NULL,
+  `upd_date` date NOT NULL,
+  PRIMARY KEY (`review_id`),
+  KEY `review_FK` (`user_id`),
+  KEY `review_FK_1` (`course_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE `user` (
+  `user_id` varchar(20) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `point` int NOT NULL,
+  `grade` varchar(20) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `reg_date` date NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+

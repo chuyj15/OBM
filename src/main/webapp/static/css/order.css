@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+	text-align: center;
+}
+
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.reservation_info {
+	display: flex;
+	justify-content: center;
+}
+
+
+.abutton a{
+	color: white;
+	text-decoration: none;
+}

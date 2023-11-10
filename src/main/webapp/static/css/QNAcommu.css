@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.container {
+	/*margin : 40px 150px;*/
+}
+.row {
+	margin: auto;
+	width: 900px;
+}
+.firstdiv{
+	margin-top: 30px !important;
+}
+.card-text {
+	display: none;
+}

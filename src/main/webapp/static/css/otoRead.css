@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.container {
+	min-height: 550px;
+	margin-top: 100px;
+}
+.coursebox {
+	margin-top: 14px;
+    margin-bottom : 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    height: 70px;
+    margin-top: 20px;
+}
+
+/*1:1 문의, 회원정보 수정 버튼*/
+.butnn {
+	 position: relative;
+	 height: 80px;
+	 width: 100%;
+}
+.btn-3d {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  justify-content: right;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 16px;
+  color: rgb(0, 0, 0);
+  margin: 20px 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: top .01s linear;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+.btn-3d-2 {
+  top: 0px;
+  right:124px;
+  
+}
+.bt-3d.yellow:hover {background-color: #F0D264;}
+.btn-3d:active {
+  top: 9px;
+}
+/* 3D button colors */
+
+.btn-3d.yellow {
+  background-color: #F0D264 !important; 
+  box-shadow: 0 0 0 1px #F0D264 inset,
+        0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 8px 0 0 rgba(196, 172, 83, .7),
+        0 8px 0 1px rgba(0,0,0,.4),
+        0 8px 8px 1px rgba(0,0,0,0.5) !important;
+}
+a.btn-3d{
+	text-decoration: none;
+}
+.btn-3d.yellow:active {
+  box-shadow: 0 0 0 1px #F0D264 inset,
+        0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 0 0 1px rgba(0,0,0,0.4);
+}
+
+

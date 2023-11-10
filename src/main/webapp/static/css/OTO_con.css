@@ -1,0 +1,90 @@
+@charset "UTF-8";
+* {
+		text-align: center;
+}
+.container {
+	min-height: 550px;
+	margin-top: 100px;
+}
+h2 {
+    text-align: center;
+    height: 70px;
+    margin-top: 20px;
+}
+
+/*유저 삭제 버튼*/
+.coursebtn {
+	 position: relative;
+	 height: 80px;
+	 width: 100%;
+}
+.btn-3d {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  justify-content: right;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 16px;
+  color: rgb(0, 0, 0);
+  margin: 20px 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: top .01s linear;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+.bt-3d.yellow:hover {background-color: #F0D264;}
+.btn-3d:active {
+  top: 9px;
+}
+/* 3D button colors */
+
+.btn-3d.yellow {
+  background-color: #F0D264;
+  box-shadow: 0 0 0 1px #F0D264 inset,
+        0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 8px 0 0 rgba(196, 172, 83, .7),
+        0 8px 0 1px rgba(0,0,0,.4),
+        0 8px 8px 1px rgba(0,0,0,0.5);
+}
+.btn-3d.yellow:active {
+  box-shadow: 0 0 0 1px #F0D264 inset,
+        0 0 0 2px rgba(255,255,255,0.15) inset,
+        0 0 0 1px rgba(0,0,0,0.4);
+}
+
+
+
+
+/*타이핑효과*/
+.typing {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 13px;
+  margin-top: 20px;
+  background-color: initial;
+  /*text-shadow: 15px 15px 15px rgb(238, 238, 238);*/
+  font-style: italic;
+}
+.msgg {
+  font-size: 13px;
+  margin-left: .6rem;
+  background-color: initial;	
+ /* text-shadow: 15px 15px 15px rgb(238, 238, 238);*/
+  font-style: italic;
+}
+
+.msgg::after {
+  content: '';
+  margin-left: .4rem;
+  border-right: 2px solid #777;
+  animation: cursor .9s infinite steps(2);
+}
+@keyframes cursor {
+  from { border-right: 2px solid #222; }
+  to { border-right: 2px solid #777; }
+}
+

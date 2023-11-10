@@ -1,0 +1,33 @@
+@charset "UTF-8";
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input::placeholder {
+  font-style: italic;
+}
+
+
+/*타이핑효과*/
+.typing {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 10px;
+}
+.msgg {
+  font-size: 15px;
+  margin-left: .6rem;
+}
+.msgg::after {
+  content: '';
+  margin-left: .4rem;
+  border-right: 2px solid #777;
+  animation: cursor .9s infinite steps(2);
+}
+@keyframes cursor {
+  from { border-right: 2px solid #222; }
+  to { border-right: 2px solid #777; }
+}

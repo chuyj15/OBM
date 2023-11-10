@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+    color: white;
+    background-color:#040D12;
+    font-family: 'Noto Serif KR', serif;
+}
+body {
+    background-color:#040D12;
+	font-family: 'Noto Serif KR', serif;
+}
+#titles {
+	font-family : 'Noto Serif KR', serif;
+	font-family : 'Diphylleia', serif;
+	font-size : 50px;
+}
+
+

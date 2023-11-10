@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+* {
+	text-align: center;
+}
+
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.reservation-set {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.second-page-sd {
+	margin-top: 20px;
+}
+
+#course-one{
+	
+	width: 200px !important;
+	
+}
+
+#course-two{
+	
+	width: 200px !important;
+	
+}
