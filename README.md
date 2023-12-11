@@ -49,12 +49,18 @@ Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 �
 필터, 레이아웃, 정적 자료 등의 JSP와 DAO, DTO, Service 등 기능적 요소를 담은 Java Class를 기준으로 구분
 
 ***
+### ✨프로젝트 일정
+![projectDate](https://github.com/chuyj15/OBM/assets/140798105/8fafd970-a3bd-4510-bdc4-3224310ea702)
+
+***
 ### ✨요구사항 정의서
 ![요구사항정의서](https://github.com/chuyj15/OBM/assets/140798105/c06855e9-c965-4e66-8863-c1b89e353912)
 
+
 ***
-### ✨프로젝트 일정
-![projectDate](https://github.com/chuyj15/OBM/assets/140798105/8fafd970-a3bd-4510-bdc4-3224310ea702)
+### ✨기능 정의서
+![기능정의서](https://github.com/chuyj15/OBM/assets/140798105/624a7e96-cbe6-41da-8e91-ff593d708f6b)
+![기능정의서2](https://github.com/chuyj15/OBM/assets/140798105/6726cef0-2b3e-4a26-80ff-4c129ecf65dc)
 
 ***
 ### ✨DB 설계
@@ -71,6 +77,8 @@ Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 �
 
 ***
 ### ✨개발 환경 및 수행 도구
+- JSP 및 서블릿 환경을 이용하여 각 상품과 코스, 리뷰, 문의 내역 등을 구현
+- JAVA, MySQL DB, JDBCConnection, JSP, Servlet, CSS, JavaScript, jQuery, 쿠키, 세션 개념 등 훈련 과정에서 취한 대부분의 기술을 활용
 ![servlet jsp](https://github.com/chuyj15/OBM/assets/140798105/9f969e17-e7d7-4ccc-a97e-cc668c788a09)
 - 사용 언어
   + <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/SQL-F80000?style=flat&logo=SQL&logoColor=white"> <img src="https://img.shields.io/badge/html-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=flat&logo=jquery&logoColor=white">
@@ -115,9 +123,16 @@ Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 �
 - 유저가 예약 취소 요청 시, 관리자가 취소 진행 가능하도록 기능 구현
 - ![예약관리기능](https://github.com/chuyj15/OBM/assets/140798105/9c874dd6-7798-4dda-b023-40492edf7975)
 
-
-
-
+***
+# 5. 프로젝트 부가 기능 
+![1](https://github.com/chuyj15/OBM/assets/140798105/d5e48988-70b6-425c-a012-145cf8d4cd00)
+![2](https://github.com/chuyj15/OBM/assets/140798105/c1164f39-e1c1-441c-b213-8526dccd08e4)
+![3](https://github.com/chuyj15/OBM/assets/140798105/bc34fd34-08f1-410d-a6c2-fa6929aaa587)
+![4](https://github.com/chuyj15/OBM/assets/140798105/7d267de2-748b-4c57-b5f9-d20534b4d49a)
+![5](https://github.com/chuyj15/OBM/assets/140798105/b95c173b-feaa-481b-9550-8dff86657125)
+![6](https://github.com/chuyj15/OBM/assets/140798105/7f02e6bb-08ad-4788-8e03-13fbbb9b6264)
+![7](https://github.com/chuyj15/OBM/assets/140798105/90e9600b-5916-4081-9164-e97b080ae721)
+![8](https://github.com/chuyj15/OBM/assets/140798105/2ba2eac6-d4ef-45bf-b935-d78b99393c1f)
 
 
 
@@ -126,9 +141,9 @@ Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 �
 <br><br>
 
 
-## 5. Troubleshooting ⁉️
+## 6. Troubleshooting ⁉️
 
-|&nbsp;&nbsp;Name&nbsp;&nbsp;|Issues|Problem solving|
+|&nbsp;&nbsp;Name&nbsp;&nbsp;|Issues|Issues|
 |:--:|--|--|
 |강진수|⦁ 자동로그인을 비롯한 여러 기능들이 구현이 된 줄 알았으나 배포 이후 여러 결점들이 발견되었습니다. 로직 결함을 포함하여 정상적으로 기능하지 않는 곳들이 있어서, 여러 환경에서 여러 번 테스트하는 작업이 필요하다는 사실을 느꼈습니다. |⦁ 처음 프로젝트 구성 당시에 회의를 적극적으로 진행하고 구체적으로 설계가 되어야 팀원 모두에게 혼란이 적고 체계적으로 프로젝트가 수행될 수 있다는 것을 깨달았습니다.| 
 |이유나|⦁ 5일이란 시간에 대한 제약으로 기능 구현에 대한 마음이 앞서 화면 설계 및 기능 정의에 대한 회의를 급하게  끝내다보니 프로젝트 진행 시 약간의 혼선이 있었습니다.|⦁ 이를 통해 실제 기능 구현도 중요하지만, 화면 설계 및 기능 정의에 대한 회의가 좀 더 상세하게 이루어져있어야 프로젝트가 원활하게 진행될 수 있다는것을 깨달았습니다. | 
