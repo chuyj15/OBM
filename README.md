@@ -130,20 +130,28 @@ Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 �
 # 5. 프로젝트 부가 기능 
 
 ![1](https://github.com/chuyj15/OBM/assets/140798105/d5e48988-70b6-425c-a012-145cf8d4cd00)
+
 ***
 ![2](https://github.com/chuyj15/OBM/assets/140798105/c1164f39-e1c1-441c-b213-8526dccd08e4)
+
 ***
 ![3](https://github.com/chuyj15/OBM/assets/140798105/bc34fd34-08f1-410d-a6c2-fa6929aaa587)
+
 ***
 ![4](https://github.com/chuyj15/OBM/assets/140798105/7d267de2-748b-4c57-b5f9-d20534b4d49a)
+
 ***
 ![5](https://github.com/chuyj15/OBM/assets/140798105/b95c173b-feaa-481b-9550-8dff86657125)
+
 ***
 ![6](https://github.com/chuyj15/OBM/assets/140798105/7f02e6bb-08ad-4788-8e03-13fbbb9b6264)
+
 ***
 ![7](https://github.com/chuyj15/OBM/assets/140798105/90e9600b-5916-4081-9164-e97b080ae721)
+
 ***
 ![8](https://github.com/chuyj15/OBM/assets/140798105/2ba2eac6-d4ef-45bf-b935-d78b99393c1f)
+
 
 
 
