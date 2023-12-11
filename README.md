@@ -66,6 +66,7 @@ Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 �
 
 ***
 ### ✨개발 환경 및 수행 도구
+![servlet jsp](https://github.com/chuyj15/OBM/assets/140798105/9f969e17-e7d7-4ccc-a97e-cc668c788a09)
 - 사용 언어
   + <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/SQL-F80000?style=flat&logo=SQL&logoColor=white"> <img src="https://img.shields.io/badge/html-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=flat&logo=jquery&logoColor=white">
 - 프레임워크
