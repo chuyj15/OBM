@@ -2,7 +2,8 @@
 더조은아카데미 미니프로젝트 3조
 <br>
 💿[웹 페이지 시연 연상](https://www.youtube.com/watch?v=FXuwoeX0iZo) <br>
-🔗[방탈출카페 사이트 OBM](http://joeun27083.cafe24.com/)
+🔗[방탈출카페 사이트 OBM(자막있음)](http://joeun27083.cafe24.com/)
+🔗[방탈출카페 사이트 OBM](https://www.youtube.com/watch?v=zTWtnNXpxvQ)
 <br>
 
 # 1. 프로젝트 주제 및 기획의도
