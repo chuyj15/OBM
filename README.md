@@ -1,7 +1,7 @@
 # OBM
 더조은아카데미 미니프로젝트 3조
 <br>
-💿[웹 페이지 시연 연상](https://www.youtube.com/watch?v=FXuwoeX0iZo)
+💿[웹 페이지 시연 연상](https://www.youtube.com/watch?v=FXuwoeX0iZo) <br>
 🔗[방탈출카페 사이트 OBM](http://joeun27083.cafe24.com/)
 <br>
 
@@ -16,7 +16,7 @@
 
 # 2. 프로젝트 구조
 ### ✨프로젝트 계획도  
-|구역|설명
+|구역|설명|
 |--|--|
 |Index|회원, 비회원, 관리자 공동 구역|
 |Admi|관리자 권한 구역|
@@ -29,12 +29,44 @@
 |Service|서비스 로직|
 
 ***
+### ✨계층 구축
+Index / Admin / User 권한별로 계층을 나누어 뷰 및 프로세스를 구축 <br>
+필터, 레이아웃, 정적 자료 등의 JSP와 DAO, DTO, Service 등 기능적 요소를 담은 Java Class를 기준으로 구분
+
+***
+### ✨요구사항 정의서
+![요구사항정의서](https://github.com/chuyj15/OBM/assets/140798105/c06855e9-c965-4e66-8863-c1b89e353912)
+
+***
+### ✨프로젝트 일정
+![projectDate](https://github.com/chuyj15/OBM/assets/140798105/8fafd970-a3bd-4510-bdc4-3224310ea702)
+
+***
 ### ✨DB 설계
 ![erd](https://github.com/chuyj15/OBM/assets/140798105/96055521-a23c-4952-ba58-514640b095b0)
 
 ***
+### ✨플로우 차트
+![flowchart](https://github.com/chuyj15/OBM/assets/140798105/0e0331b0-de59-4170-a90e-6ff12cd25611)
 
+***
+### ✨화면 설계서
+![화면설계서](https://github.com/chuyj15/OBM/assets/140798105/c039b6b6-9b20-408d-9ff8-f9e641efecbd)
+
+
+***
 ### ✨개발 환경 및 수행 도구
+- 사용 언어
+  + <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/SQL-F80000?style=flat&logo=SQL&logoColor=white"> <img src="https://img.shields.io/badge/html-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jquery-0769AD?style=flat&logo=jquery&logoColor=white">
+- 프레임워크
+  + <img src="https://img.shields.io/badge/bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white">
+- 사용 Tools
+  + <img src="https://img.shields.io/badge/eclipseide:4.25.0-2C2255?style=flat&logo=eclipseide&logoColor=white"/> <img src="https://img.shields.io/badge/openjdk:17.0.4.1-686767?style=flat&logo=openjdk&logoColor=black"/> <img src="https://img.shields.io/badge/visualstudiocode:1.74.1-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/mysql:8.0.31-4479A1?style=flat&logo=mysql&logoColor=white"/>
+- 라이브러리
+  +   <img src="https://img.shields.io/badge/commons.io-D22128?style=flat&logo=apache&logoColor=white"> 
+- 사용 DB : <img src="https://img.shields.io/badge/mysql:8.0.31-4479A1?style=flat&logo=mysql&logoColor=white"/> 
+- 협업 Tools : <img src="https://img.shields.io/badge/trello-0052CC?style=flat&logo=trello&logoColor=white"/>
+- 웹 IDE : <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white"/>
 
 
 ***
@@ -43,3 +75,9 @@
 
 
 # 3. 프로젝트 역할분담 👥
+|구역|설명|
+|--|--|
+|강진수|Order DB, OTO DB, Filter 계층 Java Class|
+|이유나|Review DB, Index 계층 및 기타 JSP|
+|이정훈|Course DB, Admin 계층 JSP|
+|추윤주|User DB, User 계층 JSP|
